@@ -1,0 +1,41 @@
+{
+  "name": "ng-typescript-grunt",
+  "version": "1.0.0",
+  "description": "karma - test runner, runs unit tests in all web browsers\r grunt - task runner, easy to read conf. format\r jasmine - test framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "update-webdriver": "webdriver-manager update",
+    "preprotractor": "npm run update-webdriver",
+    "protractor": "protractor protractor.config.js"
+  },
+  "keywords": [],
+  "author": "dMeshko",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/angular": "^1.6.32",
+    "@types/angular-mocks": "^1.5.11",
+    "@types/angular-ui-bootstrap": "^0.13.45",
+    "@types/angular-ui-router": "^1.1.39",
+    "@types/jasmine": "^2.6.0",
+    "@types/protractor": "^4.0.0",
+    "angular": "^1.6.6",
+    "angular-mocks": "^1.6.6",
+    "angular-ui-router": "^1.0.3",
+    "grunt": "^1.0.1",
+    "grunt-angular-templates": "^1.1.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-uglify": "^3.1.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-http-server": "^2.0.0",
+    "grunt-karma": "^2.0.0",
+    "grunt-ts": "^6.0.0-beta.16",
+    "jasmine": "^2.8.0",
+    "karma": "^1.7.1",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-jasmine": "^1.1.0",
+    "protractor": "^5.1.2",
+    "typescript": "^2.5.2",
+    "webdriver-manager": "^12.0.6"
+  }
+}

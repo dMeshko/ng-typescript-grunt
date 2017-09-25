@@ -1,0 +1,19 @@
+{
+    "compileOnSave": true,
+    "compilerOptions": {
+        //"outFile": "dist/app.js",
+        "rootDir": "app",
+        "outDir": "src",
+        "alwaysStrict": true,
+        "noImplicitAny": true,
+        "noImplicitReturns": true,
+        "noUnusedLocals": true,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "target": "ES5",
+        "sourceMap": true,
+        "listFiles": false,
+        "pretty": true,
+        "noEmit": true
+    }
+}
